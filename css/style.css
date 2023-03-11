@@ -1,0 +1,543 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Coda Caption';
+    src: url("../font/CodaCaption-ExtraBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Coda Caption', sans-serif;
+}
+
+/* Common Style */
+
+.uni-p {
+    padding: 0 7%;
+}
+
+/* Header Style */
+
+
+/* Topbar */
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+#topbar .para {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* width: 30%; */
+}
+
+#topbar p {
+    color: white;
+    font-size: 18px;
+}
+
+#topbar .media {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#topbar .media .media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#topbar .media .media-icon i {
+    width: 34px;
+    height: 34px;
+    font-size: 34px;
+    color: #fff;
+}
+
+/* Logobar */
+#logobar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+#logobar .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 4px;
+}
+
+#logobar .logo img {
+    width: 150px;
+    height: 60px;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #ee5253;
+    /* padding-top: 18px;
+    padding-bottom: 18px; */
+
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#navbar ul li {
+    padding: 10px 0px;
+    /* background-color: yellow;
+    color: red; */
+    margin: 0px 30px 0px 0px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* Footer Style */
+
+#imp-links {
+    display: flex;
+    justify-content: center;
+    background-color: #576574;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.about,
+.links,
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 33%;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.about h3,
+.links h3,
+.address h3 {
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.about p,
+.address p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.links ul li a {
+    display: inline-block;
+    /* text-decoration: none; */
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+#copyright {
+    background-color: #222f3e;
+    color: #fff;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/* Poster */
+
+#poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    height: 400px;
+}
+
+#poster h1 {
+    font-size: 2em;
+    color: #fff;
+}
+
+#poster p {
+    max-width: 400px;
+    color: #fff;
+}
+
+
+/* Why us Section */
+
+#whyus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#whyus .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+#whyus h1 {
+    font-size: 1.8em;
+    color: #ee5253;
+}
+
+#whyus .cards .card .title {
+    font-size: 1.1em;
+    margin: 20px;
+    color: #ee5253;
+
+}
+
+#whyus .cards .card .card-cont {
+    color: #222f3e;
+    font-weight: 500;
+}
+
+#whyus .cards .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#whyus .cards .card .card-img img {
+    width: 150px;
+}
+
+/* Contact Us */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #ee5253;
+    color: #fff;
+}
+
+#contact .first {
+    width: 80%;
+}
+
+#contact .first h2 {
+    margin: 10px 0;
+}
+
+#contact .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-family: 'Coda Caption';
+}
+
+#contact .second .btn {
+    padding: 8px 19px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #ee5253;
+    background-color: #fff;
+    border: 2px solid #ef3d3d;
+    border-radius: 20px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #ee5253;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+#newsletter .first {
+    flex-shrink: 1;
+}
+
+#newsletter .first h1 {
+    font-size: 2em;
+}
+
+#newsletter .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#newsletter .second input {
+    max-width: 500px;
+    padding: 6px;
+    border: 2px solid #ef3d3d;
+    outline: none;
+}
+
+#newsletter .second .btn {
+    max-width: 150px;
+    padding: 8px 19px;
+    color: #ee5253;
+    background-color: #fff;
+    border: 2px solid #ef3d3d;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #logobar {
+        justify-content: center;
+    }
+
+    #whyus .cards .card {
+        width: 45%;
+    }
+
+    
+    #imp-links {
+        align-content: center;
+        padding: 10px 10px;
+        text-align: center;
+    
+    }
+
+    .about{
+        text-align: center;
+    }
+
+    .about,
+    .links,
+    .address {
+        width: 45%;
+        margin: 10px;
+        padding: 10px 10px;
+    }
+
+    .about p{
+        text-align: center;
+    }
+
+    .about,
+    .links,
+    .address {
+        text-align: center;
+    }
+
+    .address p{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:620px) {
+
+    .uni-p {
+        padding: 0px 3%;
+    }
+
+    #topbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+
+    #topbar p {
+        color: white;
+        font-size: 13px;
+    }
+
+    #topbar .media .media-icon i {
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+    }
+
+    #topbar .para,
+    #topbar .media {
+        text-align: center;
+    }
+
+    #logobar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #logobar .logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 4px;
+    }
+
+    #logobar .logo img {
+        width: 90px;
+        height: 45px;
+    }
+
+    #navbar ul li {
+        padding: 5px 0px;
+        margin: 5px;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    #poster h1 {
+        font-size: 1.7rem;
+    }
+
+    #poster p {
+        padding: 20px;
+    }
+
+
+    #whyus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    #whyus .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+    }
+
+    #whyus h1 {
+        font-size: 1.1em;
+    }
+
+    #whyus .cards .card .title {
+        font-size: 0.8em;
+    }
+
+    #whyus .cards .card {
+        width: 90%;
+    }
+
+    #whyus .cards .card .card-img img {
+        width: 100px;
+    }
+
+    #contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contact .second {
+        width: 200px;
+    }
+
+    #contact .second .btn {
+        font-size: 0.8em;
+    }
+
+    #newsletter{
+        flex-direction: column;
+    }
+
+    #newsletter .second{
+        flex-direction: column;
+    }
+
+    #newsletter .first h1 {
+        font-size: 1.2em;
+    }
+
+
+    #imp-links {
+        flex-direction: column;
+        align-content: center;
+        padding: 10px 10px;
+        text-align: center;
+    
+    }
+
+    .about,
+    .links,
+    .address {
+        text-align: center;
+        width: 90%;
+        margin: 10px;
+        padding: 10px 10px;
+    }
+
+    .address p{
+        text-align: center;
+    }
+
+}
